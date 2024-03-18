@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: aliceblue;
+}
+
+p{
+    color: aliceblue;
+}
+
+h2{
+    color: aliceblue;
+}
+
+.col{
+    color: aliceblue;
+}
+
+span{
+    color: aliceblue;
+}
+
+.nav-link{
+    color: #00c0ff;
+}
+
+.text{
+    color:aliceblue;
+}
+
+.profile-box{
+    display: flex;
+    
+}

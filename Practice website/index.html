@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test_Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- NavBAr -->
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="../Practice website/index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <span class="fs-4">LOGO</span>
+          </a>    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="./about.html" class="nav-link">About Us</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+            <li class="nav-item"><a href="./Blog.html" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+          </ul>
+        </header>
+      </div>
+
+<!-- Hero section -->
+<div class="container my-5">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <h1 class="display-4 fw-bold lh-1 text">Hero section</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac turpis egestas sed tempus urna.</p>
+      </div>
+      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img class="rounded-lg-3" src="./images/glowing-spaceship-orbits-planet-starry-galaxy-generated-by-ai.jpg" alt="" width="800">
+      </div>
+    </div>
+  </div>
+
+<!-- Features -->
+<div class="container px-4 py-5" id="custom-cards">
+    <h2 class="pb-2 border-bottom">Custom cards</h2>
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(./images/11285.jpg); background-size: cover;">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(./images/5509862.jpg); background-size: cover;">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(./images/night-sky-with-planets-galaxies-scene-generative-ai.jpg); background-size: cover;">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Carousel -->
+<div id="carouselExampleIndicators" class="carousel slide container">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner" style="border-radius: 8px;">
+      <div class="carousel-item active">
+        <img src="./images/galactic-night-sky-astronomy-science-combined-generative-ai.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/space-travel-collage-design-2.jpg" class="d-block w-100" alt="..." >
+      </div>
+      <div class="carousel-item">
+        <img src="./images/space-travel-collage-design.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!-- Footer -->
+<div class="container">
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+      <div class="col mb-3">
+        <a href="../Practice website/index.html" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <p class="text">© 2024</p>
+      </div>
+  
+      <div class="col mb-3">
+  
+      </div>
+  
+      <div class="col mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text">About</a></li>
+        </ul>
+      </div>
+  
+      <div class="col mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text">About</a></li>
+        </ul>
+      </div>
+  
+      <div class="col mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text">About</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>
