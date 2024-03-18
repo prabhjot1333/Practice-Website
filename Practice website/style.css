@@ -14,6 +14,10 @@ h2{
     color: aliceblue;
 }
 
+h3{
+    color: aliceblue;
+}
+
 .col{
     color: aliceblue;
 }
@@ -39,4 +43,24 @@ span{
 .Shape{
     height: 300px;
     object-fit: cover;
+}
+
+li{
+    color: aliceblue;
+}
+
+dl{
+    color: aliceblue;
+}
+
+h4{
+    color: aliceblue;
+}
+
+h6{
+    color: aliceblue;
+}
+
+small{
+    color: aliceblue;
 }
