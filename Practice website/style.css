@@ -32,5 +32,11 @@ span{
 
 .profile-box{
     display: flex;
-    
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Shape{
+    height: 300px;
+    object-fit: cover;
 }
