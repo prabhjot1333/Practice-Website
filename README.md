@@ -9,4 +9,7 @@ That didnt go as planned but enjoyed making this.
 
 😀😀😀😀😀
 
-By the way u can see the site on github just add /
+By the way u can see the site on github just add /practice website. I was working on vs code so added the repo from their.
+
+😅😅😅😅😅😅😅😅😅
+
