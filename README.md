@@ -9,3 +9,4 @@ That didnt go as planned but enjoyed making this.
 
 😀😀😀😀😀
 
+By the way u can see the site on github just add /
